@@ -1,0 +1,39 @@
+#iconhome{
+	text-align:center;
+	width: 8%;
+	margin-bottom: 20px;
+}
+
+.overlay {
+	text-align:center;
+	border: 5px solid green;
+	
+}
+.overlayMenu {
+	margin-top: 8%;
+}
+
+.overlay a{
+	text-decoration: none;
+	color: #EDCF0D;
+	font-size: 140%;
+	line-height: 1.5;
+ }
+ 
+.btnmenu a{
+	color: black;
+	margin: 50px;
+	line-height: 2.0;	
+}
+
+.bmenu{
+	border: 4px solid #EDCF0D;
+	background: #EDCF0D;
+	border-radius: 50px;
+	padding: 1px 15px;
+
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
