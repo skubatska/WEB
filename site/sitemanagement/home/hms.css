@@ -1,0 +1,18 @@
+body {
+	margin:0;
+	background: #F9F9F9;
+	font-family: Georgia;
+	font-size: large;
+	color: #1B1B21;
+}
+
+.container {
+  margin-left: 100px;
+  width: 100%;
+}
+
+.container h1{
+	text-align:center;
+
+}
+

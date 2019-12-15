@@ -1,0 +1,17 @@
+body{
+	margin:0;
+	background: #F9F9F9;
+	font-family: Georgia;
+	font-size: large;
+	color: #1B1B21;
+}
+
+.container {
+  margin-left: 100px;
+  border: 2px solid blue;
+}
+
+.messagebox{
+	border: 2px solid pink;
+	margin: 10px;
+}

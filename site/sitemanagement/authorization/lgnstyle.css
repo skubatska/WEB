@@ -1,0 +1,65 @@
+body{
+	margin:0;
+	background: #F9F9F9;
+	font-family: Georgia;
+	font-size: large;
+	color: #1B1B21;
+}
+
+#content{
+	text-align: center;
+}
+
+#frm{
+	border: 2px solid #E4E4E4;
+	background: white;
+	text-align: center;
+	width: 20%;
+	min-width: 250px;
+	
+	margin: 5% auto;
+	/*margin-left: 40%;*/
+	border-radius: 10px;
+   /* background: white;
+    border: 2px  solid  #E6E6E6;
+    width: 30%;
+    min-width: 200px;
+    margin: 1% auto;*/
+	padding: 50px 20px;
+}
+
+#frm img{
+	width: 50%;
+
+}
+
+#frm input{
+	width: 100%;
+
+	border-radius: 10px;	
+}
+#frm input#user,#pass{
+	height: 25px;
+	font-family: Georgia;
+	font-size: large;
+	background-color: ;/*коли вводиш*/
+	background:white;
+	text-decoration:none;
+	
+}
+
+#frm p{
+	text-align: left;
+	margin-bottom: 3px;
+}
+
+#btn{
+	border: 4px solid #EDCF0D;
+	background: #EDCF0D;
+	border-radius: 10px;
+	padding: 0px 15px;
+	font-size: large;
+	line-height: 2.0;	
+	margin-top: 50px;
+	font-family: Georgia;
+}

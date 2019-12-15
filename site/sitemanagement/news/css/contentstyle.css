@@ -1,0 +1,73 @@
+body {
+	margin:0;
+	background: #F9F9F9;
+	font-family: Georgia;
+	font-size: large;
+	color: #1B1B21;
+}
+.container {
+  margin-left: 100px;
+  border: 2px solid blue;
+}
+
+//--------------------------------------------
+
+table{
+	border: 1px solid red;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+
+table a{
+	text-decoration: none;
+}
+
+table a.delete{
+	color: pink;
+}
+
+table a.edit{
+	/*color: Green;*/
+}
+
+td,th{
+	border: 1px solid gray;
+}
+
+form{
+	margin: 1px 0px;
+}
+
+form p{
+	margin: inherit;
+}
+
+form input{
+	margin: inherit;
+}
+
+div.message{
+	/*width: 600px;
+	height: 60px;*/
+	margin: 10px 0px;
+	display: flex;
+	align-items: center;
+}
+
+div.message p{
+	margin: 3px;
+}
+
+div.error{
+	/*border: 1px solid pink;
+	/*background: LightPink;*/
+}
+
+div.success{
+	/*border: 1px solid green;
+	/*background: LightGreen;*/
+}
+
+img{
+	width:200px;
+}
