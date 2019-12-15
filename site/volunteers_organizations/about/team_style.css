@@ -1,0 +1,87 @@
+#team{
+	/*border:3px solid green;	*/
+}
+/*============================*/
+
+.container{
+	
+/*	border:3px solid red;*/
+	
+	width: 100%;
+	min-height: 500px;  /*задає мінімальну висоту елемента*/
+	/*background: #fff;*/
+	/*margin: 70 auto 0;*/
+	display: flex; /*спосіб розміщувати блоки*/
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: -25px;
+	padding-left: 5%;
+	/*background-color: black;*/
+/*	opacity: 0.5; /* Полупрозрачный фон */
+	background-image: url(555.jpg);
+	background-attachment: fixed;
+	
+}
+
+.container .box{/*деталі*/
+	position: relative;
+	width: 269px;
+	height: 399px;
+	background:#FFDD00;
+	margin: 18px;
+	box-sizing: border-box;/*для изменения алгоритма расчета ширины и высоты элемента.*/
+	display: inline-block;
+	/*text-align:center;*/
+	}
+	
+.container .box .imgBox {
+	/*position: relative;*/
+	overflow: hidden;/*не виходить за межі*/
+	}
+	
+.container .box .imgBox img{
+	max-width: 100%;
+	transition: transform 2s;/*Универсальное свойство, которое позволяет одновременно задать значения transition-property, transition-duration, transition-timing-function и transition-delay. Устанавливает эффект перехода между двумя состояниями элемента,они могут быть определены с помощью псевдоэлемента :hover или :active*/
+	}
+	
+.container .box:hover .imgBox img{
+	transform: scale(1.2);/*збільшення зображення*/
+}
+
+.container .box .details{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0, 0, 0, .8);
+	transform: scaleY(0);
+	transform: transform .5s;
+	/*text-align:center;*/
+}
+
+
+.container .box:hover .details{
+	transform: scaleY(1);
+	 transition: 1s;/*трансформація ефект*/
+	text-align:center;
+}
+
+.container .box .details .content{
+	position: absolute; /*текст посередені блоку*/
+	top: 50%;
+	transform: translateY(-50%);/*можно выровнять по вертикали все, что угодно, даже не зная высоты элемента.*/
+	/*text-align: center;*/
+	padding: 15px;
+	color: #fff;
+	}
+
+
+
+.container .box .details .content h2{
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color:  #EDCF0D;
+	text-align:center;
+}

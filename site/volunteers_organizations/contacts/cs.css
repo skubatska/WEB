@@ -1,0 +1,169 @@
+body{
+	margin:0;
+	background: #F9F9F9;
+	font-family: Georgia;
+	font-size: large;
+	color: #1B1B21;
+	
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #C1C1C1;
+/*-webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.10),inset 0 -1px 0 rgba(0,0,0,0.07); */
+}
+
+#hedader{
+	/*border: 2px solid blue;*/
+	position: sticky;
+	top: 0;
+	height: 57px;
+	background: #EDCF0D;
+	
+}
+#hedader p.mayb{
+	margin-left:10%;
+	padding-top: 15px;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+
+#container{
+	/*border: 4px solid yellow;*/
+	width: 80%;
+	margin: 0 10%;
+
+	/*position:relative;*/
+}
+
+p.nametitle{
+	text-align: center;
+	padding-top: 15px;
+	font-size: x-large;
+}
+
+.ourcontacts{
+	/*border: 4px solid purple;*/
+	/*position:absolute;*/
+	display: inline-block;
+  
+	top:0;
+	left:0;
+	width:38%;
+	
+}
+
+.ourcontacts p.title{
+
+}
+
+.ourcontacts p.text{
+	margin-top: -15px;
+	margin-bottom: 35px;
+}
+
+.ourcontacts img.snicon{
+	width:50px;
+	margin-left:5px;
+}
+
+.message{
+	/*border: 4px solid orange;*/
+	/*position:absolute;*/
+	display: inline-block;
+	top:0;
+	right:0;
+	width:58%;
+	 
+
+}
+
+.message input{
+	width: 100%;
+}
+
+.message p{
+	margin-bottom: -1px;
+}
+
+.message input#input{
+	height: 33px;
+	border-radius: 10px;
+}
+.message input#input2{
+	height: 100px;
+	border-radius: 10px;
+}
+
+.message input#send{
+	border: 4px solid #EDCF0D;
+	background: #EDCF0D;
+	border-radius: 10px;
+	padding: 0px 15px;
+	color: black;
+	font-family: Georgia;
+	font-size: large;
+	line-height: 2.0;	
+}
+
+
+
+#content{
+	/*border: 4px solid pink;*/
+	margin:0 4% ;
+	text-align:center;
+}
+
+iframe{
+	/*border: 4px solid red;*/
+	border-top: 4px solid #EDCF0D;
+	width: 100%;
+	height: 450; 
+
+	margin-top: 80px;
+}
+
+.newsbox{
+	/*border: 4px solid purple;*/
+	text-align:justify;
+	width: 30%;
+	margin: 1%;
+	padding:1%;
+	box-sizing: border-box;/*для изменения алгоритма расчета ширины и высоты элемента.*/
+	display: inline-block;
+}
+
+.newsbox a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: large;
+}
+
+
+
+#footer{
+/*	border: 4px solid black;*/
+	height: 150px;
+	background: #0D0D0D;
+	margin-top: 150px;
+	left: 0;
+	bottom: 0;
+	color: #DBDBDB;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#footer .iconblock{
+	text-align: center;
+}
+#footer img.snicon{
+	width:32px;
+	margin-left:23px;
+	
+}
+
